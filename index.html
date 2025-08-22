@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.: FoundersAI :.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      
+      <div class="logo">FOUNDERS<span class="ai">AI</span></div>
+      <div class="brand"><button onclick="abreLink()">Já sou aluno</button></div>
+    </header>
+
+    <main>
+      <div class="left">
+        <div class="tag">🚀 Tecnologia Avançada</div>
+        <h1>Transforme <span class="highlight-blue">Ideias</span> <br> em <span class="highlight-purple">Realidade</span></h1>
+        <p>Junte-se à próxima geração de inovadores e empreendedores tecnológicos. Desenvolva suas habilidades com as ferramentas mais avançadas do mercado.</p>
+
+        <div class="features">
+          <div class="feature">
+            🎯 <strong>Foco Prático</strong><br>Projetos reais
+          </div>
+          <div class="feature">
+            ⚡ <strong>IA Integrada</strong><br>Última tecnologia
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="card" id="form-card">
+          <h2>Solicitar Acesso</h2>
+          <p>Insira seu email para receber o convite de acesso</p>
+          <div class="input-group">
+            <input type="email" id="email" placeholder="seu@email.com">
+          </div>
+          <button id="submitBtn" onclick="submitEmail()">
+            <span id="btnText">Solicitar Acesso</span>
+            <span id="loader" class="hidden"></span>
+          </button>
+        </div>
+
+        <div class="card hidden" id="response-card">
+          <h2>Convite Enviado</h2>
+          <p>Em breve você receberá seu convite no email informado!</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
